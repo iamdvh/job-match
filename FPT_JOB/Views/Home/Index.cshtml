@@ -1,0 +1,167 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="container">
+    <div class="left-side">
+        <div class="box-left-side">
+            <ul>
+                <li>
+                    <a <a asp-controller="Applications" asp-action="Index">
+                        <i class="fa-solid fa-briefcase"></i>
+                        Applications
+                    </a>
+                </li>
+
+                <li>
+                    <a data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <i class="fa-solid fa-list-ul"></i>
+                        Update Account
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-check"></i>
+                        Demonstrate skills
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-solid fa-briefcase"></i>
+                        Interview prep
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                        Job seeker guidence
+                    </a>
+                </li>
+            </ul>
+        </div>
+        @if (ViewData["UserHome"] != null)
+        {
+            var UserHome = ViewData["UserHome"] as ApplicationUser;
+            if(UserHome.UserType == FPT_JOB.Enums.UserTypeEnum.Employer)
+            {
+                <a asp-controller="Jobs" asp-action="Create" class="btnPost">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                    <p>Post a new job</p>
+                </a>
+            }
+        }
+        
+    </div>
+    <div class="centre">
+        <div class="box-centre">
+            <div class="suggested-job">
+                <h2>Suggested job searches</h2>
+                <div class="job-type">
+                    <a href="">
+                        <span>
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            name
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="job-container">
+                <div class="jobs">
+                    <h1 class="title">Jobs in Vietname</h1>
+                    <p class="country">Viet Nam</p>
+                    @foreach (var job in Model)
+                    {
+                        <div class="box-job">
+                            <div class="img-job">
+                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuond9PQR3AqmAEzACnEry8N0TEI-r3dqfYSmh3FbMfQ&s"
+                                     alt="" />
+                            </div>
+                            <div class="job-content">
+                                <h2 class="job-title">@job.Title</h2>
+                                <p class="company">FPT Software</p>
+                                <p class="address">@job.Address</p>
+                                <p class="date">@job.ApplicationDealine</p>
+                            </div>
+                        </div>
+                    }
+
+                </div>
+                <div class="show-all">
+                    <a <a asp-controller="Jobs" asp-action="Index">
+                        Show all
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="top-job-pick">
+                <h3>Top job picks for you</h3>
+                <p>Based on your profile and search history</p>
+                <div class="content-top-job">
+                    <div class="img-top">
+                        <img src="./images/job-img.svg" alt="" />
+                    </div>
+                    <h2>Want more jobs?</h2>
+                    <h3>
+                        Click here to continue searching over 20 million jobs on FPT
+                        Job Match
+                    </h3>
+                    <span class="search-jobs">
+                        <a <a asp-controller="Jobs" asp-action="Index">Search jobs</a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="box-right-side">
+            <div>
+                <h3>Job seeker guidence</h3>
+                <p>Recommended based on your activity</p>
+            </div>
+            <div>
+                <h3>I want to improve my resume</h3>
+                <img src="images/img-1.gif" alt="" />
+            </div>
+            <div class="">
+                <p>
+                    Explore our curated guide of expert-led courses, such as how to
+                    improve your resume and grow your network, to help you land your
+                    next opportunity.
+                </p>
+                <a href="">
+                    Show more
+                    <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Update Employer Account</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Do you want to update your seaker account becoming employer account? If you want click to Update Accout and waitng notification!!!
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <form asp-action="UpdateAccount" method="post">
+                    <button type="submit" class="btn btn-primary">Update Account</button>
+                </form>
+                
+            </div>
+        </div>
+    </div>  
+</div>
+<script>
+    var myModal = document.getElementById('myModal')
+    var myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+    })
+</script>

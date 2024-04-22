@@ -1,0 +1,111 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+<ul class="navbar-nav">
+    @*     @if (SignInManager.IsSignedIn(User))
+    {
+    <li class="nav-item" style="align-self: center;">
+    @if (UserManager.GetUserAsync(User).Result.ProfilePicture != null)
+    {
+    <img style="width:40px;height:40px; object-fit:cover; border-radius:30px" src="/Uploads/@((UserManager.GetUserAsync(User).Result.ProfilePicture))">
+    }
+    </li>
+    <li class="nav-item">
+    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @((UserManager.GetUserAsync(User).Result.LastName))!</a>
+    </li>
+    <li class="nav-item">
+    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+    <button type="submit" class="nav-link btn btn-link text-dark">Logout</button>
+    </form>
+    </li>
+    }
+    else
+    {
+    <li class="nav-item">
+    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+    </li>
+    } *@
+    @if (SignInManager.IsSignedIn(User))
+    {
+        <div class="navbar-right">
+
+            <div class="online">
+                @if (UserManager.GetUserAsync(User).Result.ProfilePicture != null)
+                {
+                    <img class="nav-profile-img"
+                         onclick="toggleMenu()" style="width:40px;height:40px; object-fit:cover; border-radius:30px" src="/Uploads/@((UserManager.GetUserAsync(User).Result.ProfilePicture))">
+                }
+                else
+                {
+                    <img class="nav-profile-img" onclick="toggleMenu()" style="width:40px;height:40px; object-fit:cover; border-radius:30px" src="/Uploads/userDefault.png">
+                }
+            </div>
+
+        </div>
+        <!----Dropdown menu-->
+
+        <div class="profile-menu-wrap" id="profileMenu">
+            <div class="profile-menu">
+                <div class="user-info">
+                    @if (UserManager.GetUserAsync(User).Result.ProfilePicture != null)
+                    {
+                        <img style="width:40px;height:40px; object-fit:cover; border-radius:30px" src="/Uploads/@((UserManager.GetUserAsync(User).Result.ProfilePicture))">
+                    }
+                    else
+                    {
+                        <img style="width:40px;height:40px; object-fit:cover; border-radius:30px" src="/Uploads/userDefault.png">
+                    }
+
+                    <div>
+                        <h3>@((UserManager.GetUserAsync(User).Result.LastName))</h3>
+                        <a href="/Identity/Account/Manage">See your profile</a>
+                    </div>
+                </div>
+                <hr />
+                <a href="#" class="profile-menu-link">
+                    <img src="~/Uploads/feedback.png" />
+                    <p>Give Feedback</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="~/Uploads/setting.png" />
+                    <p>Settings & Privacy</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="~/Uploads/help.png" />
+                    <p>Help & Support</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="~/Uploads/display.png" />
+                    <p>Display & Accessibility</p>
+                    <span>></span>
+                </a>
+                <a href="#" class="profile-menu-link">
+                    <img src="~/Uploads/logout.png" />
+                    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                        <input type="submit" value="Logout " />
+                    </form>
+                    <span>></span>
+                </a>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="login-register">
+        <li class="nav-item login">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Login">Login</a>
+        </li>
+        <li class="nav-item register">
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Register">Register</a>
+        </li>
+
+        </div>
+    }
+</ul>

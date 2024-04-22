@@ -1,0 +1,641 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\FPT_JOB.bundle.scp.css",
+      "PackagePath": "staticwebassets\\FPT_JOB.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\0bbb04df-363a-45cc-bfa7-b77fa67257af_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\0bbb04df-363a-45cc-bfa7-b77fa67257af_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\1c4324e5-05ca-4f55-b0da-9a6ac70659d6_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1c4324e5-05ca-4f55-b0da-9a6ac70659d6_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\1db6558a-7f1d-4993-8fa0-5462550ec700_IMG_1964.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\1db6558a-7f1d-4993-8fa0-5462550ec700_IMG_1964.JPG"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\1e811816-6e93-444a-8bdd-2b247cc17f17_911_coc.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1e811816-6e93-444a-8bdd-2b247cc17f17_911_coc.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\1f5f90fd-24e4-4270-82c3-497225a4c844_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\1f5f90fd-24e4-4270-82c3-497225a4c844_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\3b90271e-d9ee-477c-ba0c-ee3c702748b3_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\3b90271e-d9ee-477c-ba0c-ee3c702748b3_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\3d530fd5-2240-4ad3-8263-2d83170a2f3d_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\3d530fd5-2240-4ad3-8263-2d83170a2f3d_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\403dc1af-4158-4441-b1b2-db0327a6788e_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\403dc1af-4158-4441-b1b2-db0327a6788e_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\45f3d430-85e4-4016-8555-7e2318ce1e68_Job.avif",
+      "PackagePath": "staticwebassets\\Uploads\\45f3d430-85e4-4016-8555-7e2318ce1e68_Job.avif"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\4857fdd4-a3db-4fb7-bddb-d56a508c2dc3_Job.png",
+      "PackagePath": "staticwebassets\\Uploads\\4857fdd4-a3db-4fb7-bddb-d56a508c2dc3_Job.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\48f21584-fe2b-43cf-80ce-13dd00bc4ec8_911_coc.png",
+      "PackagePath": "staticwebassets\\Uploads\\48f21584-fe2b-43cf-80ce-13dd00bc4ec8_911_coc.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\4ef42002-24b3-414e-a985-fb773262f24d_Job.png",
+      "PackagePath": "staticwebassets\\Uploads\\4ef42002-24b3-414e-a985-fb773262f24d_Job.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\56cdb1ea-0bd4-4c91-904d-1b2fa82c2bc0_911_coc.png",
+      "PackagePath": "staticwebassets\\Uploads\\56cdb1ea-0bd4-4c91-904d-1b2fa82c2bc0_911_coc.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\5bfd6eb8-840d-48f2-b2ef-232ad02fbe5d_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\5bfd6eb8-840d-48f2-b2ef-232ad02fbe5d_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\5f30b694-2157-4a8c-b89b-72e780b973bd_IMG_1964.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\5f30b694-2157-4a8c-b89b-72e780b973bd_IMG_1964.JPG"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\65a0437b-0aaa-409e-a9bc-7a6e81e3f884_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\65a0437b-0aaa-409e-a9bc-7a6e81e3f884_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\67e9b6bc-6f5d-43c5-849a-3efd12ddc1fb.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\67e9b6bc-6f5d-43c5-849a-3efd12ddc1fb.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\7906d248-b220-45fa-9cbb-d76c76e73dfe_cv.png",
+      "PackagePath": "staticwebassets\\Uploads\\7906d248-b220-45fa-9cbb-d76c76e73dfe_cv.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\8cd6c6e7-63c8-4db1-9a24-e1149c678564_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\8cd6c6e7-63c8-4db1-9a24-e1149c678564_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\8cd7c5f9-8116-4c68-b6d8-59369f7b2d25_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\8cd7c5f9-8116-4c68-b6d8-59369f7b2d25_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\915e22c7-3fc3-4562-b560-63f3ea5968b4_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\915e22c7-3fc3-4562-b560-63f3ea5968b4_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\93a757bd-3ee1-4ef2-bf7f-d757545db2ea_Job.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\93a757bd-3ee1-4ef2-bf7f-d757545db2ea_Job.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\9b2628b1-8112-4e15-9969-156e993ccc67_Job.png",
+      "PackagePath": "staticwebassets\\Uploads\\9b2628b1-8112-4e15-9969-156e993ccc67_Job.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\9ff1d8b1-61e0-404e-9c5f-9b89884a344e_911_coc.png",
+      "PackagePath": "staticwebassets\\Uploads\\9ff1d8b1-61e0-404e-9c5f-9b89884a344e_911_coc.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\a5c4d459-bbb7-4ff5-89c2-1ff61f2993c4_911_coc.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\a5c4d459-bbb7-4ff5-89c2-1ff61f2993c4_911_coc.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\a5d3e7b6-a9a5-4533-8f66-5c7303f119ea_911_coc.png",
+      "PackagePath": "staticwebassets\\Uploads\\a5d3e7b6-a9a5-4533-8f66-5c7303f119ea_911_coc.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\a804c863-6e77-4831-9a6d-dbb4ed769b57.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\a804c863-6e77-4831-9a6d-dbb4ed769b57.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\a8f7d8c9-0ef0-4036-b245-d360d6245319_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\a8f7d8c9-0ef0-4036-b245-d360d6245319_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\a9af1767-17e5-4f53-b75d-9bbdf99e1f7b_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\a9af1767-17e5-4f53-b75d-9bbdf99e1f7b_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\b16af908-bbef-4ccf-a6c0-a3b80033c902.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\b16af908-bbef-4ccf-a6c0-a3b80033c902.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\bfaa3e30-d899-4792-9c0d-91d70ab7f4ee_911_coc.png",
+      "PackagePath": "staticwebassets\\Uploads\\bfaa3e30-d899-4792-9c0d-91d70ab7f4ee_911_coc.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\c161b93c-ed75-4c1b-92a6-dcedd06ef647_IMG_1964.JPG",
+      "PackagePath": "staticwebassets\\Uploads\\c161b93c-ed75-4c1b-92a6-dcedd06ef647_IMG_1964.JPG"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\c75fff74-5c19-4cce-9d4e-c0b1a9641efa_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\c75fff74-5c19-4cce-9d4e-c0b1a9641efa_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\c92aa5b6-0d6d-4c05-9766-580c07c882ef_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\c92aa5b6-0d6d-4c05-9766-580c07c882ef_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\c9605e85-2b7a-45b4-969a-9d5dcc7934fd_Job.png",
+      "PackagePath": "staticwebassets\\Uploads\\c9605e85-2b7a-45b4-969a-9d5dcc7934fd_Job.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\chat.png",
+      "PackagePath": "staticwebassets\\Uploads\\chat.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\clap.png",
+      "PackagePath": "staticwebassets\\Uploads\\clap.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\comment.png",
+      "PackagePath": "staticwebassets\\Uploads\\comment.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\connect.png",
+      "PackagePath": "staticwebassets\\Uploads\\connect.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\cover-pic.png",
+      "PackagePath": "staticwebassets\\Uploads\\cover-pic.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\d89ff8b2-862b-4893-9739-266ec25a6da3_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\d89ff8b2-862b-4893-9739-266ec25a6da3_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\daa4745c-7467-45f6-91f9-c547546b3bab_Marketing.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\daa4745c-7467-45f6-91f9-c547546b3bab_Marketing.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\db019972-dfc1-4a6a-bdba-d4cdfc48ccd5_cv.png",
+      "PackagePath": "staticwebassets\\Uploads\\db019972-dfc1-4a6a-bdba-d4cdfc48ccd5_cv.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\display.png",
+      "PackagePath": "staticwebassets\\Uploads\\display.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\down-arrow.png",
+      "PackagePath": "staticwebassets\\Uploads\\down-arrow.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\e39b512a-e9a7-4351-a4cf-df13478acb96_277822841_664820861468756_635501375589901486_n.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\e39b512a-e9a7-4351-a4cf-df13478acb96_277822841_664820861468756_635501375589901486_n.jpg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\event.png",
+      "PackagePath": "staticwebassets\\Uploads\\event.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\f263aac5-39d2-420e-9dae-efb336d644c7.png",
+      "PackagePath": "staticwebassets\\Uploads\\f263aac5-39d2-420e-9dae-efb336d644c7.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\feedback.png",
+      "PackagePath": "staticwebassets\\Uploads\\feedback.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\google.png",
+      "PackagePath": "staticwebassets\\Uploads\\google.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\group.png",
+      "PackagePath": "staticwebassets\\Uploads\\group.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\hashtag.png",
+      "PackagePath": "staticwebassets\\Uploads\\hashtag.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\help.png",
+      "PackagePath": "staticwebassets\\Uploads\\help.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\home.png",
+      "PackagePath": "staticwebassets\\Uploads\\home.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\img-1.gif",
+      "PackagePath": "staticwebassets\\Uploads\\img-1.gif"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\items.png",
+      "PackagePath": "staticwebassets\\Uploads\\items.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\job-img.svg",
+      "PackagePath": "staticwebassets\\Uploads\\job-img.svg"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\jobs.png",
+      "PackagePath": "staticwebassets\\Uploads\\jobs.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\like.png",
+      "PackagePath": "staticwebassets\\Uploads\\like.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\logo.png",
+      "PackagePath": "staticwebassets\\Uploads\\logo.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\logout.png",
+      "PackagePath": "staticwebassets\\Uploads\\logout.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\love.png",
+      "PackagePath": "staticwebassets\\Uploads\\love.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\message.png",
+      "PackagePath": "staticwebassets\\Uploads\\message.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\mi-logo.png",
+      "PackagePath": "staticwebassets\\Uploads\\mi-logo.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\microsoft.png",
+      "PackagePath": "staticwebassets\\Uploads\\microsoft.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\mit.png",
+      "PackagePath": "staticwebassets\\Uploads\\mit.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\more.png",
+      "PackagePath": "staticwebassets\\Uploads\\more.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\network.png",
+      "PackagePath": "staticwebassets\\Uploads\\network.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\north.png",
+      "PackagePath": "staticwebassets\\Uploads\\north.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\notification.png",
+      "PackagePath": "staticwebassets\\Uploads\\notification.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\photo.png",
+      "PackagePath": "staticwebassets\\Uploads\\photo.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\post-image-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\post-image-1.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\post-image-2.png",
+      "PackagePath": "staticwebassets\\Uploads\\post-image-2.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\post-image-3.png",
+      "PackagePath": "staticwebassets\\Uploads\\post-image-3.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\post-image-4.png",
+      "PackagePath": "staticwebassets\\Uploads\\post-image-4.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\premium.png",
+      "PackagePath": "staticwebassets\\Uploads\\premium.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\recent.png",
+      "PackagePath": "staticwebassets\\Uploads\\recent.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\right-arrow.png",
+      "PackagePath": "staticwebassets\\Uploads\\right-arrow.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\search.png",
+      "PackagePath": "staticwebassets\\Uploads\\search.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\send.png",
+      "PackagePath": "staticwebassets\\Uploads\\send.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\setting.png",
+      "PackagePath": "staticwebassets\\Uploads\\setting.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\share.png",
+      "PackagePath": "staticwebassets\\Uploads\\share.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\slack.png",
+      "PackagePath": "staticwebassets\\Uploads\\slack.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\stanford.png",
+      "PackagePath": "staticwebassets\\Uploads\\stanford.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\thumbsup.png",
+      "PackagePath": "staticwebassets\\Uploads\\thumbsup.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\user-1.png",
+      "PackagePath": "staticwebassets\\Uploads\\user-1.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\user-2.png",
+      "PackagePath": "staticwebassets\\Uploads\\user-2.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\user-3.png",
+      "PackagePath": "staticwebassets\\Uploads\\user-3.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\user-4.png",
+      "PackagePath": "staticwebassets\\Uploads\\user-4.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\user-5.png",
+      "PackagePath": "staticwebassets\\Uploads\\user-5.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\userDefault.png",
+      "PackagePath": "staticwebassets\\Uploads\\userDefault.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\Uploads\\video.png",
+      "PackagePath": "staticwebassets\\Uploads\\video.png"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\js\\qr.js",
+      "PackagePath": "staticwebassets\\js\\qr.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\Semester\\Semester 5\\1670\\Asm\\Code\\FPT_JOB\\FPT_JOB\\wwwroot\\lib\\qrcode.js",
+      "PackagePath": "staticwebassets\\lib\\qrcode.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.FPT_JOB.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.FPT_JOB.props",
+      "PackagePath": "build\\FPT_JOB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.FPT_JOB.props",
+      "PackagePath": "buildMultiTargeting\\FPT_JOB.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.FPT_JOB.props",
+      "PackagePath": "buildTransitive\\FPT_JOB.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

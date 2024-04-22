@@ -1,0 +1,240 @@
+﻿
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FPT_JOB</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/FPT_JOB.styles.css" asp-append-version="true" />
+    <script src="https://kit.fontawesome.com/3cc03cb747.js"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-left">
+                <a asp-controller="Home" asp-action="Index" class="logo">
+                    <img src="https://inkythuatso.com/uploads/thumbnails/800/2021/11/logo-fpt-inkythuatso-1-01-01-14-33-35.jpg"
+                         alt="logo" />
+                </a>
+                <form asp-controller="Jobs" asp-action="Search" method="get">
+                    <div class="search-box">
+                        <img src="~/Uploads/search.png" />
+                        <input type="text" name="searchString" placeholder="Search for anything" />
+                        <input type="submit" hidden />
+                    </div>
+                </form>
+            </div>
+            <div class="navbar-center">
+                <ul style="position: relative;">
+                    <li>
+                        <a asp-controller="Home" asp-action="Index" class="active-link"><img src="~/Uploads/home.png" alt="home" /> <span>Home</span></a>
+                    </li>
+                    <li>
+                        <a asp-controller="Jobs" asp-action="Index"><img src="~/Uploads/jobs.png" alt="jobs" /> <span>Jobs</span></a>
+                    </li>
+                    @if (User.IsInRole("User"))
+                    {
+                        <li>
+                            <ul class="notification-drop">
+                                <li class="item" style="    position: absolute;top: -1px;right: -35px;">
+                                    <i class="fa fa-bell-o notification-bell" aria-hidden="true"></i> <span class="btn__badge pulse-button" id=" unreadNotificationCount">@ViewBag.IsRead</span>
+                                    <ul>
+                                        <h1 style="font-size: 30px;margin: 12px 12px 0px;font-weight: 600;">
+                                            Notifications
+                                        </h1>
+                                        <div id="listNoti">
+                                            @if (ViewData["Notifications"] != null)
+                                            {
+                                                var notifications = ViewData["Notifications"] as IEnumerable<Notification>;
+                                                foreach (var notification in notifications.OrderByDescending(n => n.Id))
+                                                {
+                                                    <li>
+                                                        <form method="post" asp-controller="Notifications" asp-route-id="@notification.Id" asp-action="UpdateIsRead">
+                                                            @if (notification.IsRead == true)
+                                                            {
+
+                                                                <button type="submit" class="noti-message">
+                                                                    @notification.Message
+                                                                </button>
+                                                            }@if (notification.IsRead == false)
+                                                            {
+                                                                <button style="color:red;" type="submit" class="noti-message">
+                                                                    @notification.Message
+                                                                </button>
+                                                            }
+                                                        </form>
+                                                    </li>
+                                                }
+                                            }
+                                        </div>
+                                        
+                                       
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    }
+                    @if (User.IsInRole("Admin"))
+                    {
+
+                        <li class="nav-item dropdown" style="position: relative;">
+                            <a class="nav-link dropdown-toggle" style="position: absolute;bottom: -10px;left: -21px;" href="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fa-solid fa-suitcase" style="margin-right:10px;"></i>
+                                Manage
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-light" aria-labelledby="navbarDarkDropdownMenuLink" style="border-radius:15px;">
+                                <li><a class="dropdown" asp-area="" asp-controller="RoleManager" asp-action="Index">Role Manager</a></li>
+                                <li><a class="dropdown" asp-area="" asp-controller="UserRoles" asp-action="Index">User Role</a></li>
+                                <li><a class="dropdown" asp-area="" asp-controller="UserTypes" asp-action="Index">User Type</a></li>
+                                <li><a class="dropdown" asp-area="" asp-controller="Applications" asp-action="Index">Application</a></li>
+                            </ul>
+                        </li>
+                        <li style="    position: absolute; right: -125px;">
+
+                            <ul class="notification-drop">
+                                <li class="item">
+                                    <i class="fa fa-bell-o notification-bell" aria-hidden="true"></i> <span class="btn__badge pulse-button" id=" unreadNotificationCount">@ViewBag.IsRead</span>
+                                    <ul  style="margin-top: 4px;border: 0.5px solid rgba(0, 0, 0, 0.12);border-radius: 10px;">
+                                        <h1 style="font-size: 30px;margin: 12px 12px 0px;font-weight: 600;">
+                                            Notifications
+                                        </h1>
+                                        <div id="listNoti">
+                                            @if (ViewData["Notifications"] != null)
+                                            {
+                                                var notifications = ViewData["Notifications"] as IEnumerable<Notification>;
+                                                foreach (var notification in notifications.OrderByDescending(n => n.Id))
+                                                {
+                                                    <li>
+                                                        <form method="post" asp-controller="Notifications" asp-route-id="@notification.Id" asp-action="UpdateIsRead">
+                                                            @if (notification.IsRead == true)
+                                                            {
+
+                                                                <button type="submit" class="noti-message">
+                                                                    @notification.Message
+                                                                </button>
+                                                            }@if (notification.IsRead == false)
+                                                            {
+                                                                <button style="color:red;" type="submit" class="noti-message">
+                                                                    @notification.Message
+                                                                </button>
+                                                            }
+                                                        </form>
+                                                    </li>
+                                                }
+                                            }
+                                        </div>
+                                    
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+
+                    }
+
+                </ul>
+            </div>
+            <partial name="_LoginPartial" />
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        let profileMenu = document.getElementById("profileMenu");
+        function toggleMenu() {
+            profileMenu.classList.toggle("open-menu");
+        }
+
+        let sideActivity = document.getElementById("sidebarActivity");
+        let moreLink = document.getElementById("showMoreLink");
+
+        function toggleActivity() {
+            sideActivity.classList.toggle("open-activity");
+            if (sideActivity.classList.contains("open-activity")) {
+                moreLink.innerHTML = "Show less <b>-</b>";
+            } else {
+                moreLink.innerHTML = "Show More <b>+</b>";
+            }
+        }
+        $(document).ready(function () {
+            $(".notification-drop .item").on('click', function () {
+                $(this).find('ul').toggle();
+            });
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+    <script>
+        var connection = new signalR.HubConnectionBuilder().withUrl("/notificationService").build();
+
+        connection.start().then(function () {
+            console.log("SignalR Connected");
+        }).catch(function (err) {
+            return console.error(err.toString());
+        });
+
+        connection.on("ReceiveNotification", function (message) {
+            console.log("New notification received:", message);
+            var notificationList = document.getElementById("listNoti");
+            var listItem = document.createElement("li");
+
+            // Thực hiện việc gửi request đến server để lấy thông tin về notification mới nhất
+            fetch('/Notifications/GetLatestNotification', {
+                method: 'GET',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    // Lấy thông tin của notification mới nhất từ response
+                    var latestNotificationId = data.id;
+
+                    // Tạo form và button để submit dữ liệu
+                    var form = document.createElement('form');
+                    form.method = 'post';
+                    form.action = '/Notifications/UpdateIsRead/' + latestNotificationId;
+
+                    var button = document.createElement('button');
+                    button.type = 'submit';
+                    button.className = 'noti-message';
+                    button.textContent = message;
+                    button.setAttribute('style', 'color: red;');
+
+                    form.appendChild(button);
+                    listItem.appendChild(form);
+                    notificationList.insertBefore(listItem, notificationList.firstChild);
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+    </script>
+    <script>
+        fetch('/Notifications/GetUnreadNotificationCount', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(response => response.json())
+            .then(data => {
+                // Cập nhật số lượng notification chưa đọc vào thẻ span
+                document.getElementById("unreadNotificationCount").textContent = data.unreadCount;
+            })
+            .catch(error => {
+                console.error('Error:', error);
+            });
+    </script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,219 @@
+﻿@model IEnumerable<FPT_JOB.Models.Job>
+@{
+    ViewData["Title"] = "Index";
+    var userType = ViewBag.UserType;
+    var userID = ViewBag.Id;
+}
+
+
+
+@if (userType == FPT_JOB.Enums.UserTypeEnum.Employer)
+{
+    <h1>Index</h1>
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
+@if (userType == FPT_JOB.Enums.UserTypeEnum.Employer || userType == FPT_JOB.Enums.UserTypeEnum.Censor)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    Job Picture
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.RequiredQualifications)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ApplicationDealine)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Address)
+                </th>
+                <th>
+                    Company
+                </th>
+                @if (userType == FPT_JOB.Enums.UserTypeEnum.Employer || userType == FPT_JOB.Enums.UserTypeEnum.Censor)
+                {
+                    <th>
+                        Status
+                    </th>
+                }
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        <img src="./Uploads/@item.JobPictute" alt=" Alternate Text" height="100px width="100px" />
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RequiredQualifications)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ApplicationDealine)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Address)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Company)
+                    </td>
+                    @if (userType == FPT_JOB.Enums.UserTypeEnum.Employer || userType == FPT_JOB.Enums.UserTypeEnum.Censor)
+                    {
+                        <td>
+                            @if (item.isApproved != null)
+                            {
+
+                                @Html.DisplayFor(modelItem => item.isApproved)
+                            }@if (item.isApproved == null)
+                            {
+                                <p>Pending.</p>
+                            }
+                        </td>
+                    }
+                    @if (userType == FPT_JOB.Enums.UserTypeEnum.Employer)
+                    {
+                        <td>
+                            <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                            <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+
+                        </td>
+                    }
+                    @if (userType == FPT_JOB.Enums.UserTypeEnum.Censor)
+                    {
+                        <td>
+                            <form asp-action="Accept" asp-route-id="@item.Id" method="post">
+                                <button type="submit" class="btn btn-success">Accept</button>
+                            </form>
+                            <form asp-action="Reject" asp-route-id="@item.Id" method="post">
+                                <button type="submit" class="btn btn-danger">Reject</button>
+                            </form>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+@if (userType == FPT_JOB.Enums.UserTypeEnum.Seeker)
+{
+    <div class="container">
+
+
+        <div class="container-jobs">
+            <div class="job-container">
+                <div class="title-jobs">
+                    <h1>Top job picks for you</h1>
+                </div>
+                @foreach (var item in Model)
+                {
+                    int modalId = item.Id;
+                    <div class="jobs" style="border-radius: 0 0 0 0; margin-top: 0">
+                        <div class="box-job">
+                            <div class="box-left">
+                                <div class="img-job" style="height: 85px; width: 85px">
+                                    <img src="./Uploads/@item.JobPictute"
+                                         alt="" />
+                                </div>
+                                <div class="job-content">
+                                    <h2 class="job-title" style="font-size: 20px">
+                                        @item.Title
+                                    </h2>
+                                    <p class="company">@item.Company</p>
+                                    <p class="address">@item.Address</p>
+                                    <p class="date">@item.ApplicationDealine</p>
+                                </div>
+                            </div>
+
+                            <div class="box-right">
+                                <div class="action">
+                                    <button type="button" class="detail" data-bs-toggle="modal" data-bs-target="#myModal@(modalId)">Detail</button>
+                                    <form method="get" asp-controller="Applications" asp-action="Create">
+                                        <input type="hidden" name="jobId" value="@item.Id" />
+                                        <input type="hidden" name="userId" value="@userID" />
+                                        <button type="submit" class="apply">Apply</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade"
+                         id="myModal@(modalId)"
+                         tabindex="-1"
+                         aria-labelledby="exampleModalLabel@(modalId)"
+                         aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-head">
+                                    <h5 class="modal-title" id="exampleModalLabel">@item.Title</h5>
+                                    <div class="box-modal">
+                                        <h7 class="modal-company">@item.Company</h7>
+                                        ·
+                                        <h7 class="modal-item">@item.Address</h7>
+                                        ·
+                                        <h7 class="modal-item">@item.ApplicationDealine</h7>
+                                    </div>
+                                    <p><i class="fa-solid fa-briefcase"></i> Full-time Associate</p>
+                                    <p>
+                                        <i class="fa-solid fa-people-roof"></i> 10,001+ employees ·
+                                        Pharmaceutical Manufacturing
+                                    </p>
+                                    <p>
+                                        <i class="fa-solid fa-list"></i> Experiences: @item.RequiredQualifications
+                                    </p>
+                                    <h5 style="font-weight: bold">About the job</h5>
+                                    <p style="font-size: 13px">
+                                        The ideal candidate is a passionate, self-motivated, and
+                                        detail-oriented team player who is committed to the success of
+                                        our customers. Then AstraZeneca might be the one for you!
+                                        @item.Description
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button"
+                                            class="btn btn-secondary"
+                                            data-bs-dismiss="modal">
+                                        Close
+                                    </button>
+                                    <form method="get" asp-controller="Applications" asp-action="Create">
+                                        <input type="hidden" name="jobId" value="@item.Id" />
+                                        <input type="hidden" name="userId" value="@userID" />
+                                        <button type="submit" class="apply">Apply</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+}
+
+
+
+<script>
+    var myModal = document.getElementById('myModal')
+    var myInput = document.getElementById('myInput')
+
+    myModal.addEventListener('shown.bs.modal', function () {
+        myInput.focus()
+    })
+</script>

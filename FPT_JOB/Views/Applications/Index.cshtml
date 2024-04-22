@@ -1,0 +1,81 @@
+﻿@model IEnumerable<FPT_JOB.Models.Application>
+
+@{
+    ViewData["Title"] = "Index";
+    var userType = ViewBag.UserType;
+}
+
+<h1>Index</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Name Job
+            </th>
+            <th>
+                Seeker Name
+            </th>
+            <th>
+                Email
+            </th>
+            <th>CV</th>
+            @if (userType == FPT_JOB.Enums.UserTypeEnum.Seeker)
+            {
+                <th>Status</th>
+            }@if (userType == FPT_JOB.Enums.UserTypeEnum.Employer)
+            {
+                <th>Action</th>
+            }
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.Job.Title
+                </td>
+                <td>
+                    @item.User.FirstName @item.User.LastName
+                </td>
+                <td>
+                    @item.User.Email
+                </td>
+                <td>
+                    <img src="./Uploads/@item.CVPicture" alt=" Alternate Text" height="100px width="100px" />
+                </td>
+                <td>
+
+                    @if (userType == FPT_JOB.Enums.UserTypeEnum.Seeker)
+                    {
+                        @if (item.Status == null)
+                        {
+                            <p>Your CV is being approved</p>
+
+                        }
+                        else
+                        {
+                            <p>@item.Status</p>
+                        }
+                    }@if (userType == FPT_JOB.Enums.UserTypeEnum.Employer)
+                    {
+                        @if (item.Status == null)
+                        {
+                            <form asp-action="Accept" asp-route-id="@item.Id" method="post">
+                                <button type="submit" class="btn btn-success">Accept</button>
+                            </form>
+                            <form asp-action="Reject" asp-route-id="@item.Id" method="post">
+                                <button type="submit" class="btn btn-danger">Reject</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <p>This application have done!!!</p>
+                        }
+
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

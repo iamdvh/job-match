@@ -1,0 +1,52 @@
+﻿@model IEnumerable<FPT_JOB.Models.Message>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<div class="container">
+    <h1>Chat</h1>
+    <div class="box-chat">
+        <div class="content-message">
+            <ul id="messageList">
+                @foreach (var message in Model)
+                {
+                    <li>@message.Text</li>
+                }
+            </ul>
+        </div>
+        <div class="send-message">
+            <input type="text" id="messageInput" />
+            <button id="sendButton">Send</button>
+        </div>
+    </div>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.11/signalr.min.js"></script>
+<script>
+    var connection = new signalR.HubConnectionBuilder().withUrl("/chartService").build();
+
+    connection.start().then(function () {
+        console.log("SignalR Connected");
+    }).catch(function (err) {
+        return console.error(err.toString());
+    });
+
+    connection.on("receiveMessage", function (message) {
+        var messageList = document.getElementById("messageList");
+        var listItem = document.createElement("li");
+        listItem.textContent = message.text;
+        messageList.appendChild(listItem);
+    });
+
+    function sendMessage() {
+        var messageInput = document.getElementById("messageInput").value;
+        var message = {
+            text: messageInput
+        };
+        connection.invoke("sendMessage", message).catch(function (err) {
+            return console.error(err.toString());
+        });
+        document.getElementById("messageInput").value = "";
+    }
+</script>

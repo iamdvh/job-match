@@ -1,0 +1,31 @@
+﻿    @model FPT_JOB.Models.UserTypes
+    @using FPT_JOB.Enums
+
+<form method="post">
+    <div class="card">
+        <div class="card-header">
+            <h2>Manage User Type</h2>
+            Add/Remove Types for User / @ViewBag.UserName.
+        </div>
+        <div class="card-body">
+            <input type="text" asp-for="UserId" />
+
+            <div>
+                <label asp-for="Type">User Type:</label>
+                <select asp-for="Type" class="form-select" asp-items="Html.GetEnumSelectList<UserTypeEnum>()" data-val-required="The Type field is required." id="Type" name="Type" style="
+                        margin-top: 5px;">
+                    <option value="">-- Select User Type --</option>
+                </select>
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+
+
+        </div>
+        <div class="card-footer">
+            <input type="submit" value="Update" class="btn btn-primary"
+                   style="width:auto" />
+            <a asp-action="Index"
+               class="btn btn-primary" style="width:auto">Cancel</a>
+        </div>
+    </div>
+</form>
