@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FPT_JOB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3871eeaa6c3c4a9b062394d756aea1bef9fc9c1e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ac8d584d7c5671cc01b8377f569717c9fb1b31b9")]
 [assembly: System.Reflection.AssemblyProductAttribute("FPT_JOB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FPT_JOB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

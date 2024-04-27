@@ -13161,11 +13161,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Semester\\Semester 5\\1670\\Job match\\job_match\\FPT_JOB\\FPT_JOB.csproj",
+      "projectUniqueName": "D:\\Semester\\Semester 5\\1670\\Job match\\job-match\\FPT_JOB\\FPT_JOB.csproj",
       "projectName": "FPT_JOB",
-      "projectPath": "D:\\Semester\\Semester 5\\1670\\Job match\\job_match\\FPT_JOB\\FPT_JOB.csproj",
+      "projectPath": "D:\\Semester\\Semester 5\\1670\\Job match\\job-match\\FPT_JOB\\FPT_JOB.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\Semester\\Semester 5\\1670\\Job match\\job_match\\FPT_JOB\\obj\\",
+      "outputPath": "D:\\Semester\\Semester 5\\1670\\Job match\\job-match\\FPT_JOB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

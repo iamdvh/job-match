@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jr7YMT0RSCC6/Ug1A+tAm4wekxdxa8jRYLK10FPwulYhegDFTDYfESryc0rBu5ft2VA/TPYTl0Xfo36gCr7SwA==",
+  "dgSpecHash": "gwfCghdgjvzIYji+jv0nW4cG9WgUjpJLF+D9srpiUaUF5svvdNdtWW9arB86n+s90JIXDUV192Ucs8zErvfKGg==",
   "success": true,
-  "projectFilePath": "D:\\Semester\\Semester 5\\1670\\Job match\\job_match\\FPT_JOB\\FPT_JOB.csproj",
+  "projectFilePath": "D:\\Semester\\Semester 5\\1670\\Job match\\job-match\\FPT_JOB\\FPT_JOB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
